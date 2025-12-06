@@ -1,6 +1,4 @@
 
----
-
 # **Quản Lý Học Sinh (React + Express + MongoDB)**
 
 Dự án này là một ứng dụng CRUD đơn giản theo mô hình MERN để quản lý học sinh.
@@ -9,7 +7,6 @@ Dự án này là một ứng dụng CRUD đơn giản theo mô hình MERN để
 * **Backend:** Express + Mongoose
 * **Database:** MongoDB (khuyến nghị chạy bằng Docker Compose)
 
----
 
 ## **Hướng dẫn chạy nhanh (local, không dùng Docker)**
 
@@ -28,7 +25,6 @@ Dự án này là một ứng dụng CRUD đơn giản theo mô hình MERN để
 4. Mở trình duyệt tại:
     [http://localhost:3000](http://localhost:3000)
 
----
 
 ## **Chạy bằng Docker Compose (khuyến nghị)**
 
@@ -52,7 +48,6 @@ Repo này có sẵn file `docker-compose.yml` ở thư mục gốc, dùng để:
    * Chạy local: `cd frontend && npm install && npm start`, hoặc
    * Build và serve file tĩnh theo nhu cầu.
 
----
 
 ## **Lưu ý về Docker / Networking**
 
@@ -71,7 +66,6 @@ Repo này có sẵn file `docker-compose.yml` ở thư mục gốc, dùng để:
 
   hoặc chỉnh lại `MONGO_URL` cho phù hợp.
 
----
 
 ## **Các thư mục và file đã tạo**
 
@@ -79,5 +73,4 @@ Repo này có sẵn file `docker-compose.yml` ở thư mục gốc, dùng để:
 * `frontend/` : App React skeleton
 * `docker-compose.yml` : Khởi chạy MongoDB + backend
 
----
 
